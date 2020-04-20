@@ -14,7 +14,7 @@
   <name>openHAB Add-ons :: Bundles :: XMPPClient Binding</name>
 
   <properties>
-    <smack.version>4.3.3</smack.version>
+    <smack.version>4.3.4</smack.version>
   </properties>
 
   <dependencies>
