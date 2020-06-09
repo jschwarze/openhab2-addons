@@ -33,7 +33,7 @@
     <dependency>
       <groupId>com.rometools</groupId>
       <artifactId>rome-utils</artifactId>
-      <version>1.12.0</version>
+      <version>1.13.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
