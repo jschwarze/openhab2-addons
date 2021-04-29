@@ -1,0 +1,58 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: io.netty:netty-resolver
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: io.netty:netty-codec-http
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: io.netty:netty-codec
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: io.netty:netty-handler
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: io.netty:netty-transport
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: io.netty:netty-buffer
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: io.netty:netty-common
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: org.eclipse.californium:californium-core
+    versions:
+    - 2.6.0
+    - 2.6.1
+    - 2.6.2
+  - dependency-name: org.apache.cxf.services.wsn:cxf-services-wsn-api
+    versions:
+    - 3.4.2
