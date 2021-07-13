@@ -68,12 +68,12 @@
     <maven.compiler.compilerVersion>${oh.java.version}</maven.compiler.compilerVersion>
 
     <bnd.version>4.3.0</bnd.version>
-    <karaf.version>4.2.7</karaf.version>
+    <karaf.version>4.2.10</karaf.version>
     <sat.version>0.8.0</sat.version>
     <slf4j.version>1.7.21</slf4j.version>
 
-    <bnd.importpackage></bnd.importpackage>
-    <bnd.exportpackage></bnd.exportpackage>
+    <bnd.importpackage/>
+    <bnd.exportpackage/>
     <bnd.includeresource>-${.}/NOTICE, -${.}/*.xsd</bnd.includeresource>
 
     <feature.directory>src/main/feature/feature.xml</feature.directory>
@@ -210,7 +210,7 @@ Import-Package: \\
           <version>${bnd.version}</version>
           <configuration>
             <failOnChanges>false</failOnChanges>
-            <bndruns></bndruns>
+            <bndruns/>
           </configuration>
           <executions>
             <execution>
@@ -440,7 +440,7 @@ Import-Package: \\
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -453,7 +453,7 @@ Import-Package: \\
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -467,7 +467,7 @@ Import-Package: \\
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -480,7 +480,7 @@ Import-Package: \\
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -494,7 +494,7 @@ Import-Package: \\
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <execute></execute>
+                    <execute/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -533,11 +533,11 @@ Import-Package: \\
                 <file>openhab_codestyle.xml</file>
                 <version>4.11.0</version>
               </eclipse>
-              <removeUnusedImports></removeUnusedImports>
+              <removeUnusedImports/>
               <importOrder>
                 <file>openhab.importorder</file>
               </importOrder>
-              <endWithNewline />
+              <endWithNewline/>
             </java>
             <formats>
               <format>
@@ -555,8 +555,8 @@ Import-Package: \\
                   </files>
                   <version>4.12.0</version>
                 </eclipseWtp>
-                <trimTrailingWhitespace />
-                <endWithNewline />
+                <trimTrailingWhitespace/>
+                <endWithNewline/>
               </format>
               <format>
                 <!-- pom.xml -->
@@ -570,8 +570,8 @@ Import-Package: \\
                   </files>
                   <version>4.12.0</version>
                 </eclipseWtp>
-                <trimTrailingWhitespace />
-                <endWithNewline />
+                <trimTrailingWhitespace/>
+                <endWithNewline/>
               </format>
             </formats>
           </configuration>
